@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile.css" />
+    <script defer src="script.js"></script>
+    <title>Frontend Mentor | Age calculator app</title>
+  </head>
+  <body>
+    <div id="section-main">
+      <div id="form-inputs">
+        <form action="" class="form-data">
+          <div class="day column">
+            <label class="label_day" for="day">DAY</label>
+            <input class="day-input" type="number" placeholder="DD" />
+            <p class="error-message valid--day hidden">Must be a valid day</p>
+            <p class="error-message no-field-day hidden">
+              This field is required
+            </p>
+          </div>
+          <div class="month column">
+            <label class="label_month" for="month">MONTH</label>
+            <input class="month-input" type="number" placeholder="MM" />
+            <p class="error-message valid--month hidden">
+              Must be a valid month
+            </p>
+            <p class="error-message no-field-month hidden">
+              This field is required
+            </p>
+          </div>
+          <div class="year column">
+            <label class="label_year" for="year">YEAR</label>
+            <input class="year-input" type="number" placeholder="YYYY" />
+            <p class="error-message valid--year hidden">Must be a valid year</p>
+            <p class="error-message no-field-year hidden">
+              This field is required
+            </p>
+          </div>
+        </form>
+        <div class="submit-form">
+          <hr />
+          <button>
+            <img src="./assets/images/icon-arrow.svg" alt="" />
+          </button>
+          <hr class="hidden mobile" />
+        </div>
+      </div>
+      <section id="display-age">
+        <div class="font">
+          <span class="purple year-display">--</span> years
+        </div>
+        <div class="font">
+          <span class="purple month-display">--</span> months
+        </div>
+        <div class="font"><span class="purple day-display">--</span> days</div>
+      </section>
+    </div>
+  </body>
+</html>

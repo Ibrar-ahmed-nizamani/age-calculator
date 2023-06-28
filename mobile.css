@@ -1,0 +1,36 @@
+@media only screen and (max-width: 922px) {
+  #section-main {
+    height: 335px;
+    padding: 28px 28px 75px;
+    margin-bottom: 83px;
+    width: 74%;
+  }
+
+  .form-data {
+    width: 100%;
+  }
+
+  input {
+    width: 53px;
+    padding: 6px 14px;
+  }
+
+  .font {
+    font-size: 50px;
+  }
+  #display-age {
+    line-height: 59px;
+  }
+
+  .submit-form {
+    height: 116px;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  button {
+    padding: 7px;
+  }
+}
